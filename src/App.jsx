@@ -5,9 +5,11 @@ import Post from "./components/Post";
 
 function App() {
   return (
-    <div className="App">
-      <Post />
-    </div>
+    <main>
+      <Post name="ganyu" src="ganyu_src" />
+      <Post name="keqing" src="keqing_src" />
+      <Post name="azusa" src="azusa_src" />
+    </main>
   );
 }
 
